@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+body{
+    background-color: #0c1027;
+    padding: 0px 50px 0px 50px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.logo{
+    width: 170px;
+    margin-right: 100px;
+}
+
+.body{
+    margin-top: 50px;
+    padding: 0px 80px 0px 80px;
+    display: flex;
+}
+
+.body_main{
+    flex: 3;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_left{
+    display:flex;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    flex: 1;
+}
+
+.searchbox{
+    display: flex;
+    align-items: center;
+    background-color: #12193e;
+    padding: 10px;
+    border-radius: 15px;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.header_right{
+    display:flex;
+    flex:1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notification{
+    width: 25px;
+    margin-left: 50px;
+}
+
+.search_icons{
+    width: 20px;
+}
+
+.search_input{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 290px;
+    caret-color: white;
+    color: white;
+}
+
+.avatar{
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+
+.body_main{
+    display: flex;
+    flex-direction: row;
+}
+
+.body_left{
+    display: flex;
+    flex-direction: column;
+}
+
+.featured{
+    display: flex;
+    flex-direction: row;
+    background-color: #131b41;
+}
+
+.featured_image{
+    height: 20vw;
+    width: 20vw;
+}
+
+.featured_right{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 40px 30px;
+}
+
+.featured_right_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured_title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.featured_description{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.featured_button_row{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.featured_button{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink{
+    background: rgb(54,38,176);
+    background: linear-gradient(90deg, rgba(54,38,176,1) 0%, rgba(117,53,197,1) 35%, rgba(194,72,223,1) 100%);
+}
+
+.body_right{
+    padding: 30px;
+}
+
+.section_right{
+    margin-bottom: 40px;
+}
+
+.title_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view_all{
+    font-size: 14px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.similar_artists_card{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 20px;
+}
+.similar_artists_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 3;
+    margin-left: 20px;
+}
+.similar_artists_right{
+    flex: 1;
+}
+.similar_artists_time{
+    font-size: 12px;
+}
+.similar_artists_title{
+    font-weight: 500;
+}
+.similar_artists_date{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.card_music_cover{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+.queue_title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.queue_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.queue_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.queue_card_details{
+    flex: 1;
+    padding: 10px;
+}
+
+.queue_cover_image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.frosted{
+    background-color: #1b1e32;
+    padding: 0px 20px 0px 20px;
+}
